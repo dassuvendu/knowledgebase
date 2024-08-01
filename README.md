@@ -1,4 +1,4 @@
-Rag Chat ( Retrieval Augmented Generation)
+# Rag Chat ( Retrieval Augmented Generation)
 
 # Technology used -
 1. LangChain( it is used to build the LLM application)
