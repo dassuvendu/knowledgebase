@@ -30,7 +30,7 @@ q = "expalin Technical Specifications in CB-100 (Basic) ?" # docuoments related 
 
 q = "India Prime Minister" # out of documents 
 
-indexname = "abc"
+indexname = "your index name"
 
 r= rag_chat(q,indexname)
 
@@ -43,3 +43,7 @@ path = "data resources path"
 indexname = "your index name"
 
 hite,hite2 = storedata(path,indexname)
+
+print(hite)
+
+print(hite2)
