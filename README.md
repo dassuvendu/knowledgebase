@@ -25,12 +25,21 @@
 4. For chatting purpose comment off the below code in app.py file 
 
 for Rag chat
+
 q = "expalin Technical Specifications in CB-100 (Basic) ?" # docuoments related question
+
 q = "India Prime Minister" # out of documents 
- indexname = "abc"
- e = rag_chat(q,indexname)
+
+indexname = "abc"
+
+r= rag_chat(q,indexname)
+
+print(r)
 
 5. For storing data in your vector DB comment off the below in app.py and add the required path of your vector DB
+
 path = "data resources path"
+
 indexname = "your index name"
- hite,hite2 = storedata(path,indexname)
+
+hite,hite2 = storedata(path,indexname)
